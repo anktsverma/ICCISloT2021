@@ -231,6 +231,7 @@ body{
 	background:url(images/hbg.png)no-repeat;
 	height: 12vh;
 	width:90%;
+	min-width: 1500px;
 	background-size: cover;
 	position: absolute;
 	top:20px;
@@ -264,6 +265,7 @@ body{
 	background:url(images/hbg.png)no-repeat;
 	height: 15vh;
 	width:35%;
+	min-width: 500px;
 	background-size: cover;
 	position: absolute;
 	top:20px;
@@ -329,6 +331,7 @@ body{
 	background:url(images/hbg.png)no-repeat;
 	height: 12vh;
 	width:20%;
+	min-width: 300px;
 	background-size: cover;
 	position: absolute;
 	top:20px;
@@ -411,6 +414,7 @@ background: linear-gradient(90deg, rgba(35,21,102,1) 0%, rgba(138,131,174,1) 74%
 	background:url(images/hbg.png)no-repeat;
 	height: 12vh;
 	width:22%;
+	min-width: 300px;
 	background-size: cover;
 	position: absolute;
 	top:20px;
@@ -618,6 +622,7 @@ div{
 .about h1{
 	margin-left: 5%;
 	width:45%;
+	min-width: 200px;
     background-size:100% 70%;
     font-size:1em;
 }
@@ -633,7 +638,8 @@ div{
 }
 .snaps h1{
 	margin-left: 5%;
-	width:70%;
+	width:65%;
+	min-width: 150px;
 	line-height: 50px;
 	background-size:100% 50%;
     font-size:1em !important;
@@ -675,6 +681,7 @@ div{
 	margin-left: 10%;
 	height: 12vh;
 	width:50%;
+	min-width: 200px;
 	top:20px;
     background-size:100% 70%;
     font-family:font2;
@@ -739,7 +746,7 @@ background:linear-gradient(90deg, rgba(35,21,102,1) 0%, rgba(138,131,174,1) 74%,
 .publishing h1{
 
 	width:60%;
-	
+	min-width: 200px;
   
     font-size:1em !important;
 }
