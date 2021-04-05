@@ -2,14 +2,7 @@
   font-family:font1;
   src: url(Fonts/Signika-VariableFont_wght.ttf);
 }
-@font-face {
-  font-family:font2;
-  src: url(Fonts/tt0142m_.ttf);
-}
-@font-face {
-  font-family:font3;
-  src: url(Fonts/tt0144m_.ttf);
-}
+
 
 
 
@@ -19,7 +12,7 @@ body{
 	margin:0px;
 	padding: 0px;
 }
-
+p{margin:0px;}
 /* Landing Page Section CSS */
 .landing{
 	width:100%;
@@ -87,7 +80,7 @@ body{
 
 }
 
-.logo{;width:100%;height:9vh;padding-top:2vh;}
+.logo{width:100%;height:9vh;padding-top:2vh;}
 .logo h2{
 	color:white;
 	background-color: #FF9800;
@@ -132,7 +125,7 @@ body{
 	text-align: right;
 	margin-top: 3vh;
 	font-family: font1;
-	font-size: 1em;
+	font-size: 1rem;
 
 }
 .overlap-text a{
@@ -153,7 +146,7 @@ body{
 
 .overlap-text h2{
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 }
 .overlap-text button{
 	color:white;
@@ -162,6 +155,7 @@ body{
 	padding: 10px;
     border-radius: 30px;
     margin-right: 43%;
+	font-family:font1;
     }
 
 .overlap-text button:hover{
@@ -220,31 +214,27 @@ body{
 /* About Conference Section */
 .about{
 	width: 100%;
-	height: 80vh;
 	background-color: #E5E3EB;
 	clear:both;
-	position: relative;
+	padding-top:3%;
 }
 
 .about h1{
 	margin-left: 10%;
 	background:url(images/hbg.png)no-repeat;
 	height: 12vh;
-	width:90%;
-	min-width: 1500px;
+	width:20%;
+	min-width: 300px;
 	background-size: cover;
-	position: absolute;
-	top:20px;
 	padding-top: 2px;
 	line-height:60px;
-    background-size:18% 70%;
-    font-family:font2;
-    font-size:1.5em;
+    background-size:80% 70%;
+    font-family:font1;
+    font-size:1.5rem !important;
 }
 
 .about p{
 	margin-left: 10%;
-	position: absolute;
 	font-size:1.1em;
 	top:20%;
 	text-align: justify;
@@ -272,8 +262,8 @@ body{
 	padding-top: 2px;
 	line-height: 90px;
 	background-size:80% 80%;
-	    font-family:font2;
-    font-size:1.5em !important;
+	    font-family:font1;
+    font-size:1.5rem !important;
 }
 .slidesh{width:90% !important;height:90vh !important;position:absolute !important;top:20vh !important;left:0% !important;border:inset 4px #FF9800 !important;}
 .slide-show2{
@@ -299,11 +289,11 @@ body{
 }
 .feature-element:nth-child(odd) p,h3{
 	margin-right: 30px;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 .feature-element:nth-child(even) p,h3{
 	margin-left: 30px;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 .feature-element:nth-child(even) {
   border-left:solid 0.2vw #fff;
@@ -311,11 +301,10 @@ body{
 .feature-element:nth-child(n-2){
 	border-bottom:solid 0.1vw #fff;
 }
-.feature-element p{font-family:font1;}
+.feature-element p,h3{font-family:font1;}
 .feature-element i{font-size:30px;background-color:rgba(0,0,0,0.5);padding:15px;border-radius:50%;width:4%;border:solid 1px #fff;}
 .lrg{padding:15px 10px 15px 15px !important;}
 .smg{padding:15px 15px 15px 10px !important;}
-
 
 /* Key Note Speakers section */
 .key-speaker{
@@ -338,8 +327,8 @@ body{
 	padding-top: 2px;
 	line-height:60px;
     background-size:80% 70%;
-    font-family:font2;
-    font-size:1.5em !important;
+    font-family:font1;
+    font-size:1.5rem !important;
 }
 
 .key-speaker img{
@@ -363,8 +352,8 @@ body{
 	position: absolute;
 	left:14%;
 	bottom: 15%;
-	font-family:font2;
-    font-size:1.5em !important;
+	font-family:font1;
+    font-size:1.5rem !important;
 }
 
 #brief{
@@ -382,7 +371,7 @@ body{
 	width: 60%;
 	right: 5%;
 	top:20%;
-	font-size: 1em;
+	font-size: 1rem;
 	text-align: justify;
 	font-family:font1;
 	line-height:5vh;
@@ -397,37 +386,33 @@ body{
 background: linear-gradient(90deg, rgba(35,21,102,1) 0%, rgba(138,131,174,1) 74%, rgba(175,170,200,1) 100%);
 }
 .deadline img{width:100%;margin-top:10vh;height:50vh;}
-.deadline h1{text-align:center;margin:0px;padding:20px 0 0 0;color:#FF9800;text-decoration:underline;font-size:2em;}
-
+.deadline h1{text-align:center;margin:0px;padding:20px 0 0 0;color:#FF9800;text-decoration:underline;font-size:2rem;}
+.mob{display:none;}
 
 
 /* Publishing and indexing section */
 .publishing{
 	width: 100%;
-	height: 50vh;
 	background-color: #D4D4DA;
-	position: relative;
+	padding:3% 0%;
 }
 
 .publishing h1{
-	margin-left: 10%;
+	
 	background:url(images/hbg.png)no-repeat;
 	height: 12vh;
 	width:22%;
 	min-width: 300px;
 	background-size: cover;
-	position: absolute;
-	top:20px;
 	padding-top: 2px;
 	line-height:60px;
     background-size:100% 70%;
-        font-family:font2;
-    font-size:1.5em !important;
+        font-family:font1;
+    font-size:1.5rem !important;
+	margin:0px;
+	margin-left: 10%;
 }
 #pub-line{
-	position: absolute;
-	top:32%;
-	left: 10%;
 	margin:0px;
 	border-color:#FF9800;
 	height: 2px;
@@ -435,16 +420,15 @@ background: linear-gradient(90deg, rgba(35,21,102,1) 0%, rgba(138,131,174,1) 74%
 	width: 80%;
 	border-left:none;
 	border-right:none;
+	margin-left:10%;
 }
 .publishing  p{
-	position: absolute;
-	top:40%;
-	left:10%;
-	font-size: 1.1em;
+	font-size: 1.1rem;
     width: 80%;
     text-align: justify;
     font-family:font1;
     line-height:4vh;
+	margin-left:10%;
 }
 
 
@@ -453,11 +437,12 @@ background: linear-gradient(90deg, rgba(35,21,102,1) 0%, rgba(138,131,174,1) 74%
 /* Conference Track Section */
 .track{
 	width: 100%;
-	height: 170vh;
+	height:100vh;
 	background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(35,21,102,1) 0%, rgba(138,131,174,1) 74%, rgba(175,170,200,1) 100%);
+background: linear-gradient(90deg, rgba(35,21,102,1) 0%, rgb(69, 43, 201) 74%, rgb(87, 55, 247) 100%);
 position: relative;
 clear:both;
+overflow: hidden;
 }
 .track h1{
 	position:absolute;
@@ -468,46 +453,49 @@ clear:both;
 }
 
 .con-elem{
-	width:49%;display:inline-block;color: white;margin-top:10vh;float:left;height:70vh;
+	width:33%;display:inline-block;color: white;margin-top:10vh;float:left;height:auto;
 }
 
 .con-elem h3, .con-elem p{
-	margin-left: 70px;
-	width:50%;
+	width:70%;
 	margin:0 auto;
-}
-.con-elem p{color:#FF9800;margin-top:4vh;line-height:3.5vh;font-family:font1;}
-.con-elem h3{    font-family:font2;
-    font-size:1.5em !important;
+	}
+
+.con-elem p{color:#FF9800;margin-top:4vh;line-height:1.7rem;font-family:font1;margin-left:20%;font-size:1rem ;}
+.con-elem h3{font-family:font1;
+    font-size:1.5rem ;
+	text-align:center;
 }
 
 
 
 /* Footer Section */
 .footer{
-
+    clear: left;
 	width: 100%;
 	height: 20vh;
 	background-color: #312828;
-	position: relative;
+	position:relative;
 }
 
 .footer #footer-text1{
 	position: absolute;
 	top:26%;
 	left:37%;
-	font-size: 1.1em;
+	font-size: 1.1rem;
+	font-family:font1;
 }
 
 .footer #footer-text2{
 	position: absolute;
 	top:57%;
 	left:31%;
-	font-size: 1.1em;
+	font-size: 1.1rem;
+	font-family:font1;
 }
 #line1{
 	position: absolute;
-	top:27%;
+	top:40%;
 	margin:0px;
 	border-color:#FF9800;
 	height: 2px;
@@ -519,8 +507,8 @@ clear:both;
 
 #line2{
 	position: absolute;
-	top:57%;
-	margin-left: 27%;
+	top:65%;
+	margin-left:30.5%;
 	border-color:#FF9800;
 	height: 2px;
 	border-bottom:none;
@@ -576,13 +564,13 @@ div{
 	text-align: right;
 	margin-top: 3vh;
 	font-family: font1;
-	font-size: 1em;
+	font-size: 1rem;
 
 
 }
 .overlap-text h2{
 	text-align: center;
-	font-size: 1.1em;
+	font-size: 1.1rem;
 	display:block;
 	width:90%;
 	margin:3vh auto;
@@ -624,14 +612,14 @@ div{
 	width:45%;
 	min-width: 200px;
     background-size:100% 70%;
-    font-size:1em;
+    font-size:1rem;
 }
 
 .about p{
 	margin-left: 5%;
-	font-size:0.75em;
+	font-size:0.9em;
 	width:90%;
-    line-height:2.6vh;
+    line-height:3.5vh;
 }
 .snaps{
 	height: 60vh;
@@ -642,7 +630,7 @@ div{
 	min-width: 150px;
 	line-height: 50px;
 	background-size:100% 50%;
-    font-size:1em !important;
+    font-size:1rem !important;
 }
 .slide-show2{
 	margin-left: 5%;
@@ -666,8 +654,8 @@ div{
 	text-align:center;
 }
 
-.feature-element p{font-size:0.7em;}
-.feature-element h3{font-size:0.7em;width:100%;}
+.feature-element p{font-size:0.7rem;}
+.feature-element h3{font-size:0.7rem;width:100%;}
 .feature-element i{font-size:10px;padding:5px;}
 .lrg{padding:5px !important;}
 .smg{padding:5px!important;}
@@ -684,8 +672,8 @@ div{
 	min-width: 200px;
 	top:20px;
     background-size:100% 70%;
-    font-family:font2;
-    font-size:1em !important;
+    font-family:font1;
+    font-size:1rem !important;
 }
 
 .key-speaker img{
@@ -703,14 +691,14 @@ div{
 #prof-name{
 	left:30%;
 	top: 39%;
-    font-size:1.3em !important;
+    font-size:1.3rem !important;
 }
 
 #brief{
 	top: 43%;
 	left:10%;
 	width:300px;
-	font-size: .8em;
+	font-size: .8rem;
 
 }
 
@@ -718,7 +706,7 @@ div{
 	width: 90%;
 	right: 5%;
 	top:52%;
-	font-size: .8em;
+	font-size: .8rem;
 	line-height:3.6vh;
 	overflow-y:scroll;
 }
@@ -740,7 +728,7 @@ background-size:contain;
 background:linear-gradient(90deg, rgba(35,21,102,1) 0%, rgba(138,131,174,1) 74%, rgba(175,170,200,1) 100%);
 }
 .deadline img{width:80%;margin-top:5vh;height:100vh;margin-left:10%; }
-.deadline h1{text-align:center;margin:0px;padding:20px 0 0 0;color:#FF9800;text-decoration:underline;font-size:1.6em;}
+.deadline h1{text-align:center;margin:0px;padding:20px 0 0 0;color:#FF9800;text-decoration:underline;font-size:1.6rem;}
 
 
 .publishing h1{
@@ -748,12 +736,12 @@ background:linear-gradient(90deg, rgba(35,21,102,1) 0%, rgba(138,131,174,1) 74%,
 	width:60%;
 	min-width: 200px;
   
-    font-size:1em !important;
+    font-size:1rem !important;
 }
 
 .publishing  p{
 	top:30%;
-	font-size: .8em;
+	font-size: .8rem;
     
     line-height:3vh;
 }
@@ -764,12 +752,12 @@ background:linear-gradient(90deg, rgba(35,21,102,1) 0%, rgba(138,131,174,1) 74%,
 }
 .track h1{
 	top: .2%;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	left:30%;
 }
 
 .con-elem{
-	width:100%;display:inline-block;margin-top:8vh;float:left;height:55vh;
+	width:100%;display:inline-block;margin-top:8vh;float:none;height:auto;
 }
 
 .con-elem h3, .con-elem p{
@@ -779,7 +767,7 @@ background:linear-gradient(90deg, rgba(35,21,102,1) 0%, rgba(138,131,174,1) 74%,
 }
 .con-elem p{line-height:2.8vh;text-align: left;margin-left:10%;margin-top: 5%;width:80%;}
 .con-elem h3{
-    font-size:1em !important;
+    font-size:1rem !important;
 }
 
 
@@ -787,14 +775,16 @@ background:linear-gradient(90deg, rgba(35,21,102,1) 0%, rgba(138,131,174,1) 74%,
 	position: absolute;
 	top:30%;
 	left:15%;
-	font-size: .8em;
+	font-size: .8rem;
+	
 }
 
 .footer #footer-text2{
 	position: absolute;
 	top:70%;
 	left:10%;
-	font-size: .5em;
+	font-size: .5rem;
+
 }
 #line1{
 	position: absolute;
