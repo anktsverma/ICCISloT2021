@@ -1,0 +1,41 @@
+@media (min-width:501px) and (max-width:910px){
+.overlap{
+	height:60vh;
+}
+.overlap-text h2{
+	font-size: 0.9em;
+}
+
+.overlap-text button{
+    margin-right: 25%;
+    }
+}
+
+@media (min-width:501px) and (max-width:1140px){
+	.overlap-text p{font-size:0.9em;width:80%;margin-left:10%;}
+}
+
+@media (min-width:632px) and (max-width:700px){
+	.overlap-text button{
+    margin-right: 27%;
+    }
+	}
+
+	@media (min-width:700px) and (max-width:909px){
+	.overlap-text button{
+    margin-right: 29.5%;
+    }
+	}
+
+@media (min-width:501px) and (max-width:900px){
+.about h1{
+    background-size:35vw 70%;
+    font-size:3vw;
+}
+
+@media (min-width:901px) and (max-width:1298px){
+.about h1{
+    background-size:20vw 70%;
+    font-size:2vw;
+}
+}
