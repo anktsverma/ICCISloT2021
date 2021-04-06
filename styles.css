@@ -155,6 +155,7 @@ p{margin:0px;}
 	padding: 10px;
     border-radius: 30px;
     margin-right: 43%;
+	margin-top: 4%;
 	font-family:font1;
     }
 
@@ -546,7 +547,7 @@ div{
 	}
 	.pn-menu i{font-size:25px;}
 }
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 600px)
 {
 	.pn-menu{position:absolute;top:1vh;right:3%;}
 	.pn-menu i{color:#FF9800;}
@@ -567,20 +568,20 @@ div{
 	font-size: 1rem;
 
 
-}
+} 
 .overlap-text h2{
 	text-align: center;
 	font-size: 1.1rem;
 	display:block;
 	width:90%;
-	margin:3vh auto;
+	margin:4vh auto;
 }
 .overlap-text button{
-	padding:5px;
+	padding:10px;
     border-radius: 30px;
-    width:60%;
+    width:40%;
     display:block;
-    margin:0 auto;
+    margin:5vh auto;
     }
 .icn{
 	width:80%;
@@ -666,7 +667,7 @@ div{
 }
 
 .key-speaker h1{
-	margin-left: 10%;
+	margin: 10%;
 	height: 12vh;
 	width:50%;
 	min-width: 200px;
@@ -764,6 +765,7 @@ background:linear-gradient(90deg, rgba(35,21,102,1) 0%, rgba(138,131,174,1) 74%,
 	margin-left: 70px;
 	width:100%;
 	margin:0 auto;
+	margin-bottom: -15px;
 }
 .con-elem p{line-height:2.8vh;text-align: left;margin-left:10%;margin-top: 5%;width:80%;}
 .con-elem h3{
