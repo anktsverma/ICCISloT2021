@@ -146,6 +146,18 @@ p {
   height: 75vh;
 }
 
+.overlap-text button{
+	color:white;
+	background-color: black;
+	border: 2px solid black;
+	padding: 10px;
+    border-radius: 30px;
+    margin-right: 43%;
+	margin-top: 4%;
+	font-family:font1;
+    }
+
+
 .overlap-text {
   position: absolute;
   top: 0px;
@@ -433,11 +445,70 @@ h3 {
 	order:5;
   }
 
+
 #prof-name {
   font-family: font1;
   font-size: 1.5rem !important;
   text-align: center;
   order:1;
+=======
+
+
+
+
+
+/* Mobile View */
+
+@media only screen and (max-width: 1400px){
+	.menu-items{
+		display: none;
+	}
+	.pn-menu{
+		display:inline-block;position:absolute;top:1vh;right:3%;
+	}
+	.pn-menu i{font-size:25px;}
+}
+@media only screen and (max-width: 600px)
+{
+	.pn-menu{position:absolute;top:1vh;right:3%;}
+	.pn-menu i{color:#FF9800;}
+
+	.slide-show{
+	background: linear-gradient(90deg, #FF9800 0%, #FF9800 100%) !important;
+}
+.overlap{
+	display:none;
+}
+.overlap-text{
+	top:0px;
+	right:0%;
+	width:100%;
+	text-align: right;
+	margin-top: 3vh;
+	font-family: font1;
+	font-size: 1rem;
+
+
+} 
+.overlap-text h2{
+	text-align: center;
+	font-size: 1.1rem;
+	display:block;
+	width:90%;
+	margin:4vh auto;
+}
+.overlap-text button{
+	padding:10px;
+    border-radius: 30px;
+    width:40%;
+    display:block;
+    margin:5vh auto;
+    }
+.icn{
+	width:80%;
+	margin: 0% auto;
+	display: block;
+
 }
 
 #brief {
@@ -578,9 +649,22 @@ h3 {
    background-color: #312828;
    padding: 20px 0px;
 }
+
 .social{
    display: flex;
    justify-content: space-between;
+
+
+.key-speaker h1{
+	margin: 10%;
+	height: 12vh;
+	width:50%;
+	min-width: 200px;
+	top:20px;
+    background-size:100% 70%;
+    font-family:font1;
+    font-size:1rem !important;
+
 }
 
 .footer #footer-text1 {
@@ -871,9 +955,22 @@ div {
     font-size: 1.6rem;
   }
 
+
   .publishing h1 {
     width: 60%;
     min-width: 200px;
+
+.con-elem h3, .con-elem p{
+	margin-left: 70px;
+	width:100%;
+	margin:0 auto;
+	margin-bottom: -15px;
+}
+.con-elem p{line-height:2.8vh;text-align: left;margin-left:10%;margin-top: 5%;width:80%;}
+.con-elem h3{
+    font-size:1rem !important;
+}
+
 
     font-size: 1rem !important;
   }
@@ -925,3 +1022,4 @@ div {
   }
 
 }
+

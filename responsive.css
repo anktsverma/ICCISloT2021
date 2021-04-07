@@ -17,13 +17,13 @@
 
 @media (min-width:632px) and (max-width:700px){
 	.overlap-text button{
-    margin-right: 27%;
+    margin-right: 33%;
     }
 	}
 
 	@media (min-width:700px) and (max-width:909px){
 	.overlap-text button{
-    margin-right: 29.5%;
+    margin-right: 37%;
     }
 	}
 
@@ -38,6 +38,7 @@
     background-size:20vw 70%;
     font-size:2vw;
 }
+
 }
 @media (min-width:600px) and (max-width:1298px){
     .track{
@@ -102,3 +103,5 @@
         padding: 17px;
       }
 }
+} 
+
