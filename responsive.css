@@ -17,16 +17,16 @@
 
 @media (min-width:632px) and (max-width:700px){
 	.overlap-text button{
-    margin-right: 27%;
+    margin-right: 33%;
     }
 	}
 
 	@media (min-width:700px) and (max-width:909px){
 	.overlap-text button{
-    margin-right: 29.5%;
+    margin-right: 37%;
     }
 	}
-
+/* 
 @media (min-width:501px) and (max-width:900px){
 .about h1{
     background-size:35vw 70%;
@@ -38,4 +38,5 @@
     background-size:20vw 70%;
     font-size:2vw;
 }
-}
+} */
+
