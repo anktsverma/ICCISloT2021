@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>ICCISloT 2021</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+  <link rel="stylesheet" type="text/css" href="template.css">
+  <link rel="stylesheet" type="text/css" href="">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="ism/css/my-slider.css" />
+  <script src="ism/js/ism-2.2.min.js"></script>
+
+</head>
+
+<body >
+
+  <!-- Landing Page Section -->
+  <div class="landing">
+    <div class="logo">
+      <h2>ICCISloT</h2>
+    </div>
+    <img class="overlap" src="images/B1.png">
+    <div class="overlap-text">
+      <a class="menu-items" href="#"><i class="fa fa-home"></i> HOME</a>
+      <span class="dropdown">
+        <a class="menu-items" href="#" class="dropbtn"><i class="fa fa-copy"></i> CALL FOR PAPERS <i
+            class="fa fa-caret-down"></i></a>
+        <span class="dropdown-content">
+          <a href="">About ICCISI</a>
+          <a href="">Important Dates</a>
+          <a href="">Submission Guidelines</a>
+          <a href="">Indexing</a>
+          <a href="">Conference Tracks</a>
+        </span>
+      </span>
+      <a class="menu-items" href="#"><i class="fa fa-users"></i> COMMITTEES</a>
+      <a class="menu-items" href="#"><i class="fa fa-user-plus" aria-hidden="true"></i> REGISTERATION</a>
+
+
+      <span class="dropdown">
+        <a class="menu-items" href="#" class="dropbtn"><i class="fa fa-map-marker" aria-hidden="true"></i> VENUE<i
+            class="fa fa-caret-down"></i></a>
+        <span class="dropdown-content">
+          <a href="">Conference Venue</a>
+          <a href="">Accomodation</a>
+          <a href="">Transportation</a>
+          <a href="">Things To Do</a>
+        </span>
+      </span>
+
+
+      <a class="menu-items" href="#"><i class="fa fa-history"></i> PAST CONFEFRENCE</a>
+      <a class="menu-items" href="#"><i class="fa fa-phone" aria-hidden="true"></i> CONTACT</a>
+      <a class="pn-menu" onclick="openNav()" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+      <br><br><br>
+
+      <h2>3rd International Conference on Computational Intelligence,<br>
+        Security & IoT (ICCISloT) 2021 </h2>
+      <h2 style="color: white;text-decoration: underline;">29-30th DECEMBER 2021</h2>
+      <h2 style="color: white;">National Institute of Technology Agartala, Tripura, India</h2><br>
+      <h2 style="text-decoration: underline;">Conference Proceedings</h2>
+      <p style="color: white;text-align: center;"> All accepted & presented regular papers has been included in Springer
+        CCIS Series (Scopus Indexed).</p>
+
+    </div>
+    <div class="slide-show">
+
+    </div>
+
+    <div class="rem-logo">
+      <div class="icn">
+        <img class="icn-item1" src="images/Springer.png">
+        <img class="icn-item2" src="images/CCIS3.jpg">
+        <img class="icn-item3" src="images/nita-logo.png">
+      </div>
+    </div>
+  </div>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#"><i class="fa fa-home"></i> HOME</a>
+      <a href="#" onclick="openpaper()"><i class="fa fa-copy"></i> CALL FOR PAPERS <i id="indicator1"
+          class="fa fa-caret-down"></i></a>
+      <ul id="paper-content">
+        <a href="">
+          <li>About ICCISI</li>
+        </a>
+        <a href="">
+          <li>Important Dates</li>
+        </a>
+        <a href="">
+          <li>Submission Guidelines</li>
+        </a>
+        <a href="">
+          <li>Indexing</li>
+        </a>
+        <a href="">
+          <li>Conference Tracks</li>
+        </a>
+      </ul>
+      <a href="#"><i class="fa fa-users"></i> COMMITTEES</a>
+      <a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i> REGISTERATION</a>
+      <a href="#" onclick="openvenue()"><i class="fa fa-map-marker" aria-hidden="true"></i> VENUE<i id="indicator2"
+          class="fa fa-caret-down"></i></a>
+      <ul id="venue-content">
+        <a href="">
+          <li>Conference Venue</li>
+        </a>
+        <a href="">
+          <li>Accomodation</li>
+        </a>
+        <a href="">
+          <li>Transportation</li>
+        </a>
+        <a href="">
+          <li>Things To Do</li>
+        </a>
+      </ul>
+      <a href="#"><i class="fa fa-history"></i> PAST CONFEFRENCE</a>
+      <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> CONTACT</a>
+    </div>
+  </div>
+  <div class="commitees">
+    <h1>Commitees</h1>
+    <div>
+      <button onclick="generalChair()" class="btn active">General Chairs</button>
+      <button onclick="organisingChair()" class="btn">Organising Chairs</button>
+      <button onclick="technicalProgramCommittee()" class="btn">Technical Program Committee</button>
+    </div>
+    <div id="generalChair">
+      <img src="images/ProfHKSharma.jpg">
+      <p><span class="title">Prof. H. K. Sharma</span>
+        <span class="sub-title">Director, NIT Agartala, Tripura</span>
+        Dr. HARISH KUMAR SHARMA, a Professor of Sant Longowal Institute of Engineering & Technology (SLIET) (Deemed
+        University) (Established by Ministry of HRD, Government of India), is involved in teaching, research and
+        administration. Professor Sharma has published 139 papers in peer reviewed journals and a total of more than 180
+        papers in National/International Journals/ Proceedings. He has supervised 12Ph.Ds and 37 M.Tech students for
+        their theses and authored/edited eight books and two manuals, which are published by the reputed national and
+        International publishing houses. He has 1520 citations with an i-10 index of 43 and h-index of 20 (Google
+        scholar). He contributed twenty three chapters in the books, published from the National and international
+        publishers and represented the country in different countries, ISRAEL, Canada, China, Switzerland, Thailand,
+        Germany, France, Singapore, Malaysia, New Zealand, Australia etc. in different programs. He has successfully
+        handled number of projects, worth rupees more than a crore from the government agencies and industry in the
+        capacity of PI and Co-PI. He has successfully transferred a technology on the commercial scale. He has filed a
+        patent and possesses two copyrights and assisted to number of industries. Dr. Sharma is a member/life member to
+        various associations and served in different capacity in the different state and national committees as resource
+        person/expert. He has also served referee and editorial board member to different national and international
+        journals. Research and academic excellence has earned him several accolades at the National and International
+        level, which include Fellow to Institution of Engineers, SGSITS National Award for the best teacher (below
+        thirty five years of age) from ISTE, Vigyan Ratna Samman from UP Government, Professor Jiwan Singh Sidhu Award
+        for excellence in Teaching from AFST(I), Outstanding book award from ISAE, Young Scientist awards from UP
+        Government.</p>
+
+      <img src="images/ProfKMDeb.jpg">
+      <p><span class="title">Prof. K. M. Deb</span>
+        <span class="sub-title">Professor & Koenig Endowed Chair, Electrical and Computer Engineering, Michigan State University, USA</span>
+        Kalyanmoy Deb is Koenig Endowed Chair Professor at Department of Electrical and Computer Engineering in Michigan
+        State University, USA. Born in Udaipur, Tripura, he passed his higher secondary school from Netaji Subhas
+        Vidyaniketan in 1980 and went on to receive his BTech degree from IIT Kharagpur. Prof. Deb's research interests
+        are in evolutionary optimization and their application in multi-criterion optimization, modeling, and machine
+        learning. He was awarded IEEE Evolutionary Computation Pioneer Award for his sustained work in EMO, Infosys
+        Prize, TWAS Prize in Engineering Sciences, CajAstur Mamdani Prize, Distinguished Alumni Award from IIT
+        Kharagpur, Edgeworth-Pareto award, Bhatnagar Prize in Engineering Sciences, and Bessel Research award from
+        Germany. He is fellow of IEEE, ASME, and three Indian science and engineering academies. He has published over
+        545 research papers with Google Scholar citation of over 145,000 with h-index 121. He is in the editorial board
+        on 18 major international journals. More information about his research contribution can be found from
+        http://www.egr.msu.edu/~kdeb.</p>
+
+      <img src="images/Ogunfunmi.jpg">
+      <p><span class="title">Tokunbo Ogunfunmi</span>
+        <span class="sub-title">Santa Clara University, USA</span>
+        Tokunbo Ogunfunmi is Professor of Electrical Engineering and the Director of the Signal Processing Research Lab
+        (SPRL) in the School of Engineering at Santa Clara University (SCU), Santa Clara, CA. His current research
+        interests include digital signal processing, multimedia (speech, video) and machine learning/artificial neural
+        networks. He has published 4 books and over 160 refereed journal and conference papers in these and related
+        areas. Dr. Ogunfunmi has been a consultant to industry and government, and a visiting professor at the
+        University of Texas and Stanford University. In 2015, he was awarded the prestigious Carnegie Foundation
+        Visiting Professorship. His industrial experience include consulting for companies such as Broadcom, AMD, NEC,
+        AT&T Bell Labs. and NIKON Precision Research & Development. He is also a registered professional engineer in the
+        State of California. He served as an IEEE Distinguished Lecturer for the Circuits and Systems Society from
+        2011-2013. He also served as a Senior Associate Editor for the IEEE Signal Processing Letters and an Associate
+        Editor for IEEE Transactions on Circuits and Systems I and II. He has also served the IEEE as Chair of the
+        Circuits and Systems (CAS) Society Technical Committees on CAS for Communications and CAS for Education and
+        Outreach.</p>
+    </div>
+
+    <div id="organisingChair">
+      <ul>
+        <li><span class="title">Nirmalya Kar</span><br>
+          <span class="sub-title">CSE Dept., NIT Agartala</span></li>
+          <li><span class="title">Dr. Ashim Saha</span><br>
+            <span class="sub-title">CSE Dept., NIT Agartala</span></li>
+            <li><span class="title">Suman Deb</span><br>
+              <span class="sub-title">CSE Dept., NIT Agartala</span></li>
+      </ul>
+    </div>
+
+    <div id="technicalProgramCommittee">
+      <ul>
+        <li><span class="title">Prof. Farid Farahmand</span><br>
+          <span class="sub-title">Sonama State University, USA</span></li>
+          <li><span class="title">Prof. Shivakumar Mathapathi</span><br>
+            <span class="sub-title">California Polytecnic State University, USA</span></li>
+            <li><span class="title">Dr. Ahcene Bounceur</span><br>
+              <span class="sub-title">University of Brest, France.</span></li>
+<li><span class="title">Prof. Kaoru Sakatani</span><br>
+<span class="sub-title">Nihon Univesity, Japan.</span></li>
+<li><span class="title">Prof. Eric Gamess,</span><br>
+<span class="sub-title">Jacksonville State University, Alabama</span></li>
+<li><span class="title">Prof. Meryem Elmoulat,</span><br>
+<span class="sub-title">Research Unit Georisk, Morocco</span></li>
+<li><span class="title">Prof. P. M. Caledonian</span><br>
+<span class="sub-title">Muscat, Oman</span></li>
+<li><span class="title">Prof Sutanu Chakraborti</span><br>
+<span class="sub-title">IIT Madras</span></li>
+<li><span class="title">Dr. Shovan Bhoumik</span><br>
+<span class="sub-title">IIT Patna</span></li>
+<li><span class="title">Prof. Miltos Alamaniotis,</span><br>
+<span class="sub-title">University of Texas at San Antonio, USA,</span></li>
+<li><span class="title">Prof. Pakize Erdoğmuş,</span><br>
+<span class="sub-title">Duzce University, Turkey</span></li>
+<li><span class="title">Prof.Sergio Trilles,</span><br>
+<span class="sub-title">Universitat Jaume , Spain</span></li>
+<li><span class="title">Prof. R. P Sharma</span><br>
+<span class="sub-title">NIT Agartala</span></li>
+<li><span class="title">Prof. Bidyut Bhattacharya</span><br>
+<span class="sub-title">NIT Agartala</span></li>
+<li><span class="title">Dr. Diptendu Bhattacharya</span><br>
+<span class="sub-title">NIT Agartala</span></li>
+<li><span class="title">Dr. Sergi Trilles Oliver</span><br>
+<span class="sub-title">University Jaume I, Spain</span></li>
+<li><span class="title">Dr. Sujay Deb</span><br>
+<span class="sub-title">IIIT Delhi</span></li>
+<li><span class="title">Dr. Dhiman Saha</span><br>
+<span class="sub-title">IIT Bhilai,</span></li>
+<li><span class="title">Dr. Partha Pakrey</span><br>
+<span class="sub-title">NIT Silchar</span></li>
+<li><span class="title">Prof. B. Subramaniam</span><br>
+<span class="sub-title">NIT Warangal</span></li>
+<li><span class="title">Dr. S N Pradhan</span><br>
+<span class="sub-title">NIT Agartala</span></li>
+<li><span class="title">Dr. Ardhendu Saha</span><br>
+<span class="sub-title">NIT Agartala</span></li>
+<li><span class="title">Dr. Rupa G. Meheta</span><br>
+<span class="sub-title">SVNIT Surat</span></li>
+<li><span class="title">Dr. Lov Kumar</span><br>
+<span class="sub-title">BITS Pilani</span></li>
+<li><span class="title">Dr. Shital Raut</span><br>
+<span class="sub-title">VNIT Nagpur</span></li>
+<li><span class="title">Dr. Mridu Sahu</span><br>
+<span class="sub-title">NIT Raipur</span></li>
+<li><span class="title">Dr. Samir S Sahasrabudhe</span><br>
+<span class="sub-title">IIT Mumbai</span></li>
+<li><span class="title">Dr. Mrinal Kanti Debbarma</span><br>
+<span class="sub-title">NIT Agartala</span></li>
+<li><span class="title">Dr. Swapan Debbarma</span><br>
+<span class="sub-title">NIT Agartala</span></li>
+<li><span class="title">Nikhil Debbarma</span><br>
+<span class="sub-title">NIT Agartala</span></li>
+<li><span class="title">Kunal Chakma</span><br>
+<span class="sub-title">NIT Agartala</span></li>
+<li><span class="title">Anupam Jamatia</span><br>
+<span class="sub-title">NIT Agartala</span></li>
+<li><span class="title">Dwijen Rudrapal</span><br>
+<span class="sub-title">NIT Agartala</span></li>
+<li><span class="title">Tribid Debbarma</span><br>
+<span class="sub-title">NIT Agartala</span></li>
+<li><span class="title">Smita Das</span><br>
+<span class="sub-title">NIT Agartala</span></li>
+<li><span class="title">Dr. Dipankar Debnath</span><br>
+<span class="sub-title">IIT Kharagpur</span></li>
+<li><span class="title">Dr. Anish Kr. Saha</span><br>
+<span class="sub-title">NIT Silchar</span></li>
+<li><span class="title">Dr. Sadhan Gope</span><br>
+<span class="sub-title">Mizoram University</span></li>
+<li><span class="title">Dr. Tanmoy Roy Choudhury</span><br>
+<span class="sub-title">KIIT, Bhubaneswar</span></li>
+<li><span class="title">Mahendra Pratap Singh</span><br>
+<span class="sub-title">NIT Karnataka</span></li>
+<li><span class="title">Dr. Sharmistha Roy</span><br>
+<span class="sub-title">Usha Martin University</span></li>
+<li><span class="title">Dr. Alok Ranjan Prusty</span><br>
+<span class="sub-title">MSDE, Government of India</span></li>
+<li><span class="title">Prof. Mahalinga V Mandi</span><br>
+<span class="sub-title">Dr. Ambedkar Institute of Technology, Bangalore</span></li>
+<li><span class="title">Prof. Banani Saha</span><br>
+<span class="sub-title">University of Calcutta</span></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+  <!-- footer section -->
+  <div class="footer">
+    <hr id="line1">
+    <!-- hitwebcounter Code START -->
+    <div class="counter">
+      <a href="https://www.hitwebcounter.com" target="_blank">
+        <img src="https://hitwebcounter.com/counter/counter.php?page=7752981&style=0025&nbdigits=5&type=ip&initCount=0"
+          title="Free Counter" Alt="web counter" border="0" /></a>
+    </div>
+    <p id="footer-text1" style="color: #FF9800;">This site is designed by Web Team <a href="#"
+        style="color: white; text-decoration:none;"> @NIT Agartala.</a> </p>
+    <hr id="line2">
+    <div class="social-icons">
+      <a href=""><img src="images/twitter.png" width="25px" height="25px"></a>
+      <a href=""><img src="images/facebook.png" width="25px" height="25px"></a>
+      <a href=""><img src="images/mail.png" width="25px" height="25px"></a>
+    </div>
+    <p id="footer-text2" style="color: #FF9800;">Copyright ©2020. All trade marks and images are the property of their
+      respective owners.</p>
+  </div>
+  <script>
+  
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    function openpaper() {
+      var x = document.getElementById('paper-content');
+      var y = document.getElementById('indicator1');
+
+      if (x.style.display === 'block') {
+        x.style.display = 'none';
+        y.classList.remove('fa-caret-up');
+        y.classList.add('fa-caret-down');
+      } else {
+        x.style.display = 'block';
+        y.classList.remove('fa-caret-down');
+        y.classList.add('fa-caret-up');
+      }
+    }
+    function openvenue() {
+      var x = document.getElementById('venue-content');
+      var y = document.getElementById('indicator2');
+
+      if (x.style.display === 'block') {
+        x.style.display = 'none';
+        y.classList.remove('fa-caret-up');
+        y.classList.add('fa-caret-down');
+      } else {
+        x.style.display = 'block';
+        y.classList.remove('fa-caret-down');
+        y.classList.add('fa-caret-up');
+      }
+    }
+  </script>
+</body>
+
+</html>
+
+<script>
+ 
+  function generalChair(){
+    document.getElementById("organisingChair").style.display="none";
+    document.getElementById("technicalProgramCommittee").style.display="none";
+    document.getElementById("generalChair").style.display="block";
+
+  }
+  function organisingChair(){
+    document.getElementById("generalChair").style.display="none";
+    document.getElementById("organisingChair").style.display="block";
+    document.getElementById("technicalProgramCommittee").style.display="none";
+  }
+  function technicalProgramCommittee(){
+    document.getElementById("generalChair").style.display="none";
+    document.getElementById("organisingChair").style.display="none";
+    document.getElementById("technicalProgramCommittee").style.display="block";
+  }
+  document.getElementsByClassName("btn")[0].addEventListener("click", function() {
+  document.getElementsByClassName("btn")[0].className+=" active";
+  document.getElementsByClassName("btn")[1].className="btn";
+  document.getElementsByClassName("btn")[2].className="btn";
+});
+document.getElementsByClassName("btn")[1].addEventListener("click", function() {
+document.getElementsByClassName("btn")[0].className="btn";
+  document.getElementsByClassName("btn")[1].className+=" active";
+  document.getElementsByClassName("btn")[2].className="btn";
+});
+document.getElementsByClassName("btn")[2].addEventListener("click", function() {
+document.getElementsByClassName("btn")[0].className="btn";
+  document.getElementsByClassName("btn")[1].className="btn";
+   document.getElementsByClassName("btn")[2].className+=" active";
+});
+</script>
