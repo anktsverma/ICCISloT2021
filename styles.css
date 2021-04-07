@@ -774,55 +774,18 @@ background:linear-gradient(90deg, rgba(35,21,102,1) 0%, rgba(138,131,174,1) 74%,
 
 
 .footer #footer-text1{
-	position: absolute;
-	top:30%;
-	left:15%;
 	font-size: .8rem;
 	
 }
 
 .footer #footer-text2{
-	position: absolute;
-	top:70%;
-	left:10%;
 	font-size: .5rem;
 
 }
-#line1{
-	position: absolute;
-	top:29%;
-	margin:0px;
-	border-color:#FF9800;
-	height: 2px;
-	border-bottom:none;
-	width: 100%;
-	border-left:none;
-	border-right:none;
-}
 
-#line2{
-	position: absolute;
-	top:57%;
-	margin-left: 20%;
-	border-color:#FF9800;
-	height: 2px;
-	border-bottom:none;
-	width: 60%;
-	border-left:none;
-	border-right:none;
-}
-.counter{
-	position: absolute;
-	top: 5%;
-	left:5%;
-}
+
 div{
 	margin:0px;
-}
-.social-icons{
-	position: absolute;
-	top: 5%;
-	right: 7%;
 }
 
 }
