@@ -4,7 +4,9 @@
   }
   
   
-  
+  html {
+  scroll-behavior: smooth;
+}
   
   
   
@@ -18,7 +20,11 @@
       width:100%;
       height:60vh;
       position: relative;
-      background-color: #FF9800;
+ 
+   background-image: linear-gradient(266deg, #FF9800B9 0%, #ff9800B9 100%),
+    url(images/nita.jpeg);
+      background-size:100% 200%;
+
           
   }
   .pn-menu{
@@ -191,64 +197,54 @@
 
 
 /* Footer Section */
-.footer{
-    clear: left;
-	width: 100%;
-	height: 20vh;
-	background-color: #312828;
-	position:relative;
+.footer {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   background-color: #312828;
+   padding: 20px 0px;
+}
+.social{
+   display: flex;
+   justify-content: space-between;
 }
 
-.footer #footer-text1{
-	position: absolute;
-	top:26%;
-	left:37%;
-	font-size: 1.1rem;
-	font-family:font1;
+.footer #footer-text1 {
+  font-size: 1.1rem;
+  font-family: font1;
+  text-align: center;
+  margin-top: 30px;
 }
 
-.footer #footer-text2{
-	position: absolute;
-	top:57%;
-	left:31%;
-	font-size: 1.1rem;
-	font-family:font1;
+.footer #footer-text2 {
+  font-size: 1.1rem;
+  font-family: font1;
+  text-align: center;
 }
-#line1{
-	position: absolute;
-	top:40%;
-	margin:0px;
-	border-color:#FF9800;
-	height: 2px;
-	border-bottom:none;
-	width: 100%;
-	border-left:none;
-	border-right:none;
+#line1 {
+  margin: 0px;
+  border-color: #ff9800;
+  height: 2px;
+  border-bottom: none;
+  width: 100%;
+  border-left: none;
+  border-right: none;
 }
 
-#line2{
-	position: absolute;
-	top:65%;
-	margin-left:30.5%;
-	border-color:#FF9800;
-	height: 2px;
-	border-bottom:none;
-	width: 45%;
-	border-left:none;
-	border-right:none;
+#line2 {
+  margin-left: 30.5%;
+  border-color: #ff9800;
+  height: 2px;
+  border-bottom: none;
+  width: 45%;
+  border-left: none;
+  border-right: none;
 }
-.counter{
-	position: absolute;
-	bottom: 10%;
-	left:15%;
+.counter {
+
 }
-div{
-	margin:0px;
-}
-.social-icons{
-	position: absolute;
-	bottom: 10%;
-	right: 17%;
+div {
+  margin: 0px;
 }
 
 
@@ -360,49 +356,36 @@ div{
 	
 }
 
-.footer #footer-text2{
-	position: absolute;
-	top:70%;
-	left:10%;
-	font-size: .5rem;
+.footer #footer-text1 {
+    font-size: 0.8rem;
+  }
 
-}
-#line1{
-	position: absolute;
-	top:29%;
-	margin:0px;
-	border-color:#FF9800;
-	height: 2px;
-	border-bottom:none;
-	width: 100%;
-	border-left:none;
-	border-right:none;
-}
+  .footer #footer-text2 {
+    font-size: 0.5rem;
+  }
+  #line1 {
+    margin: 0px;
+    border-color: #ff9800;
+    height: 2px;
+    border-bottom: none;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+  }
 
-#line2{
-	position: absolute;
-	top:57%;
-	margin-left: 20%;
-	border-color:#FF9800;
-	height: 2px;
-	border-bottom:none;
-	width: 60%;
-	border-left:none;
-	border-right:none;
-}
-.counter{
-	position: absolute;
-	top: 5%;
-	left:5%;
-}
-div{
-	margin:0px;
-}
-.social-icons{
-	position: absolute;
-	top: 5%;
-	right: 7%;
-}
+  #line2 {
+    margin-left: 20%;
+    border-color: #ff9800;
+    height: 2px;
+    border-bottom: none;
+    width: 60%;
+    border-left: none;
+    border-right: none;
+  }
+
+  div {
+    margin: 0px;
+  }
 
 }
 
@@ -411,7 +394,7 @@ div{
 /* About Conference Section */
 .contact{
 	width: 100%;
-	background-color: #E5E3EB;
+
 	clear:both;
 	padding-top:3%;
 }
@@ -479,7 +462,7 @@ div{
 /* Registration Page Starts here*/
 .registration{
 	width: 100%;
-	background-color: #E5E3EB;
+
 	clear:both;
 	padding-top:3%;
 }
@@ -561,7 +544,6 @@ table, th, td {font-size:0.9rem;}
 /* Commitees Page Starts here*/
 .commitees{
 	width: 100%;
-	background-color: #E5E3EB;
 	clear:both;
 	padding-top:3%;
     overflow: hidden;
@@ -635,3 +617,456 @@ li .subtitle{display:inline-block;}
 #organisingChair ol,#technicalProgramCommittee ol{margin:0vh 0px;}
 #organisingChair li,#technicalProgramCommittee li{display:block;width:100%;list-style-type: circle;margin:0vh 0px;font-family: font1;}
     }
+
+
+    /* Commitees Page Ends here*/
+
+
+
+    /* Venue Page Starts here*/
+ 
+.venuegeneral{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.venuegeneral span{
+    font-weight: bold;
+}
+
+.imgR1, .imgR2{
+  
+    width: 20rem;
+    height: 12rem;
+    border: 1px solid rgb(216, 216, 216);
+    z-index: 5;
+}
+.piccontainer1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 7em;
+        margin-top:3vh;
+         margin-bottom:3vh;
+}
+.imgR1:hover{
+    
+}
+.aR2{
+    color: rgb(240, 134, 13);
+}
+.left1{
+  width:60%;
+  
+}
+.right1{margin-top:-5%;margin-left:5%;}
+
+.pR1{
+    font-size: 1.1em;
+}
+
+.sectionaddedR{
+   
+    padding-left: 8em;
+    padding-right: 4em;
+    padding-top: 5em;
+
+}
+
+.D{
+    margin-top: 2em;
+}
+.aR1{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(240, 134, 13);
+    font-size: 1.3em;
+}
+
+.R1{
+    width: 25rem;
+    height: 18rem;
+    border-radius: 1em;
+}
+
+.flexcontainer1{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.Hvirtual{
+    text-align: center;
+    font-size: 2.3em;
+
+}
+
+.heading{
+    background: rgb(160, 160, 160);
+    margin-bottom: -1.51em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+@media(max-width : 1298px)
+{
+    .imgR1, .imgR2{
+        width: 18rem;
+        height: 13rem;
+        border: 1px solid rgb(216, 216, 216);
+        z-index: 5;
+    }
+    .R1{
+        width: 23rem;
+        height: 16rem;
+        border-radius: 1em;
+    }
+    
+    .sectionaddedR{
+        padding-left: 4em;
+    }
+}
+
+
+
+@media(max-width : 1145px)
+{
+    .imgR1, .imgR2{
+        width: 16rem;
+        height: 11rem;
+        border: 1px solid rgb(216, 216, 216);
+        z-index: 5;
+    
+    }
+    
+    
+    .R1{
+        width: 22rem;
+        height: 15rem;
+        border-radius: 1em;
+    }
+
+    .sectionaddedR{
+        padding-left: 2em;
+    }
+}
+
+
+@media(max-width : 1025px)
+{
+    body{
+        font-size: smaller;
+    }
+    .imgR1, .imgR2{
+        width: 15rem;
+        height: 10rem;
+        border: 1px solid rgb(216, 216, 216);
+        z-index: 5;
+    
+    }
+
+    .R1{
+        width: 18rem;
+        height: 11rem;
+        border-radius: 1em;
+    }
+
+    .sectionaddedR{
+        padding-left: 2em;
+    }
+}
+
+@media(max-width : 923px)
+{
+    body{
+        
+        font-size: smaller;
+    }
+
+    .piccontainer1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .imgR1{
+        width: 18rem;
+        height: 13rem;
+        border: 1px solid rgb(216, 216, 216);
+        z-index: 5;
+    }
+
+    .imgR2{
+        display: none;
+    }
+
+    .R1{
+        width: 14rem;
+        height: 9rem;
+        border-radius: 1em;
+    }
+    .sectionaddedR{
+        padding-left: 2em;
+    }
+}
+
+@media(max-width : 793px)
+{
+    body{
+        font-size: x-small;
+    }
+
+    .piccontainer1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .imgR1{
+        width: 15rem;
+        height: 11rem;
+        border: 1px solid rgb(216, 216, 216);
+        z-index: 5;
+    }
+
+    .imgR2{
+        display: none;
+    }
+    .sectionaddedR{
+        padding-left: 2em;
+    }
+
+    .R1{
+        width: 13rem;
+        height: 8rem;
+        border-radius: 1em;
+    }
+}
+
+
+@media(max-width : 679px)
+{
+    body{
+        font-size: x-small;
+    }
+
+    .piccontainer1{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -2.7em;
+    }
+    .imgR1{
+        width: 11rem;
+        height: 8rem;
+        border: 1px solid rgb(216, 216, 216);
+        z-index: 5;
+    }
+
+    .imgR2{
+        display: none;
+    }
+    .sectionaddedR{
+        padding-left: 2em;
+    }
+}
+
+@media(max-width : 507px)
+{
+    .imgR1{
+        width:1rem;
+        height: 1rem;
+        border: 1px solid rgb(216, 216, 216);
+        z-index: 5;
+    }
+
+    .imgR2{
+        display: none;
+    }
+    .flexcontainer1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+
+    .piccontainer1{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -1em;
+    }
+
+
+}
+
+
+
+
+.venue{
+  width: 100%;
+  background-color: #E5E3EB;
+  clear:both;
+  padding-top:3%;
+    overflow: hidden;
+}
+
+.venue h1{
+  background:url(images/hbg.png)no-repeat;
+  height: 12vh;
+  width:20%;
+  min-width: 300px;
+  background-size: cover;
+  padding-top: 2px;
+  line-height:60px;
+    background-size:80% 70%;
+    font-family:font1;
+    font-size:1.5rem;
+    margin:0 auto;
+}
+
+.Organiser h2,.transportation h2,.ThingsTodo h2{
+  background:url(images/hbg.png)no-repeat;
+  height: 12vh;
+  width:20%;
+  min-width: 300px;
+  background-size: cover;
+  padding-top: 2px;
+  line-height:60px;
+    background-size:80% 70%;
+    font-family:font1;
+    font-size:1.5rem;
+    margin-top:5vh;
+}
+.ThingsTodo h2{width:30% !important;}
+.Organiser h2,.transportation h2,.ThingsTodo h2{font-family:font1 !important;font-size:1.5rem !important;}
+.Organiser h3,.transportation h3,.ThingsTodo h3{font-family:font1 !important;font-size:1.3rem !important;}
+.Organiser p,.transportation p,.ThingsTodo p{font-family:font1 !important;font-size:1.1rem !important;line-height:4vh;text-align:justify !important;}
+.imgR1:hover{transition: transform ease-in-out 0.5s;transform:scale(1.1,1.1);}
+@media only screen and (max-width: 500px){
+.venue h1{
+  margin:0 auto;
+  width:45%;
+  min-width: 200px;
+    background-size:100% 70%;
+    font-size:1rem;
+}
+.Organiser h2,.transportation h2,.ThingsTodo h2{font-family:font1 !important;font-size:1.8em !important;width:10% !important;margin:0px !important;}
+.Organiser h3,.transportation h3,.ThingsTodo h3{font-family:font1 !important;font-size:1.5em !important;}
+.Organiser p,.transportation p,.ThingsTodo p{font-family:font1 !important;font-size:1.2em !important;line-height:3.5vh;}
+}
+.Organiser h2,.transportation h2,.ThingsTodo h2{
+    background:url(images/hbg.png)no-repeat;
+    height: 12vh;
+    width:20%;
+    min-width: 250px;
+    background-size: cover;
+    padding-top: 2px;
+    line-height:60px;
+      background-size:80% 70%;
+      font-family:font1;
+      font-size:1.5rem;
+      margin-top:5vh;
+  }
+}
+    /* Venue Page Ends here*/
+
+
+
+
+      /* Call for Papers Page Starts here*/
+      
+
+.ConR{
+    padding-left: 8em;
+    padding-right: 5em;
+    background: #f0f0f0;
+    margin-top: -2em;
+    padding-top: 5em;
+    margin-left:10%;
+}
+.sectionConR{margin:0 auto;width:80%;}
+.headingCon{
+    background: rgb(199, 199, 199);
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+.ConR p{
+    font-size: 1.1em;
+}
+.aR1{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ConR span{
+    color: orangered;
+}
+
+.sR2{
+    font-weight: bold;
+    color: black;
+}
+
+.ConR li{
+    list-style: square;
+}
+
+.Indexing li{
+    font-weight: bold;
+}
+
+.cfp{
+    width: 100%;
+    clear:both;
+    padding-top:3%;
+      overflow: hidden;
+        background-color: #E5E3EB;
+  }
+  
+  .cfp h1{
+    background:url(images/hbg.png)no-repeat;
+    height: 12vh;
+    width:30%;
+    min-width: 300px;
+    background-size: cover;
+    padding-top: 2px;
+    line-height:60px;
+      background-size:80% 70%;
+      font-family:font1;
+      font-size:1.5rem;
+      margin:0 auto;
+  }
+ 
+  .Aboutconference h2 , .ImportDates h2 ,.Formatting h2 ,.online h2, .AandP h2,.Indexing h2
+  {
+    background:url(images/hbg.png)no-repeat;
+    height: 12vh;
+    width:20%;
+    min-width: 300px;
+    background-size: cover;
+    padding-top: 2px;
+    line-height:60px;
+      background-size:80% 70%;
+      font-family:font1;
+      font-size:1.5rem;
+    }
+    .ImportDates h2,.AandP h2{width:33%}
+    .Formatting li{list-style-type: none;}
+    .sectionConR p,.Aboutconference p , .ImportDates p ,.Formatting p,.Formatting h4,.Formatting li ,.online p, .AandP p,.Indexing p{
+    font-family:font1 !important;font-size:1.1em !important;line-height:4vh;text-align:justify !important;
+    }
+    @media only screen and (max-width: 500px){
+        .sectionConR{margin:0 auto;width:90%;}
+    .cfp h1{
+      margin:0 auto;
+      width:50%;
+      min-width: 200px;
+        background-size:100% 70%;
+        font-size:1rem;
+    }
+    .Aboutconference h2 , .ImportDates h2 ,.Formatting h2 ,.online h2, .AandP h2,.Indexing h2{
+        font-size:1rem;
+        width:20%;
+        min-width: 250px;
+    }
+    .sectionConR p,.Aboutconference p , .ImportDates p ,.Formatting p,.Formatting h4,.Formatting li ,.online p, .AandP p,.Indexing p{
+        font-family:font1 !important;font-size:1.2em !important;line-height:3.5vh;text-align:justify !important;
+        }
+        .Formatting li{list-style-type: none;font-size:1.2em !important;}
+}
+       /* Call for Papers Page Ends here*/
