@@ -642,6 +642,12 @@ div {
   .pn-menu i {
     font-size: 25px;
   }
+  .ac1{
+    display: none;
+  }
+  .ac2{
+    display: none;
+  }
 }
 @media only screen and (max-width: 600px) {
   .pn-menu {
