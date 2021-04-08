@@ -2,6 +2,12 @@
   font-family: font1;
   src: url(Fonts/Signika-VariableFont_wght.ttf);
 }
+.ac1{
+   
+   background-color: white;
+   color: #ff9800 !important;
+}
+
 
 body {
   margin: 0px;
