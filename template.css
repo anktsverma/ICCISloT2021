@@ -1050,6 +1050,53 @@ li .subtitle{display:inline-block;}
     .sectionConR p,.Aboutconference p , .ImportDates p ,.Formatting p,.Formatting h4,.Formatting li ,.online p, .AandP p,.Indexing p{
     font-family:font1 !important;font-size:1.1em !important;line-height:4vh;text-align:justify !important;
     }
+
+
+    /* Conference Track Section */
+.track {
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(35, 21, 102, 1) 0%,
+    rgb(69, 43, 201) 74%,
+    rgb(87, 55, 247) 100%
+  );
+  display: flex;
+  justify-content: space-around;
+  clear: both;
+  flex-wrap: wrap;
+}
+.trackh {
+  background: linear-gradient(
+    90deg,
+    rgba(35, 21, 102, 1) 0%,
+    rgb(69, 43, 201) 74%,
+    rgb(87, 55, 247) 100%
+  );
+  margin: 0;
+  padding: 0;
+  color: #ff9800;
+  text-align: center;
+  padding: 44px;
+}
+
+.con-elem {
+  color: white;
+  padding-bottom: 65px;
+  width: 30%;
+  margin: 0 auto;
+}
+.con-elem p {
+  color: #ff9800;
+  line-height: 1.7rem;
+  font-family: font1;
+  font-size: 1rem;
+}
+.con-elem h3 {
+  font-family: font1;
+  font-size: 1.5rem;
+  margin-left: 0px;
+}
     @media only screen and (max-width: 500px){
         .sectionConR{margin:0 auto;width:90%;}
     .cfp h1{
@@ -1068,5 +1115,30 @@ li .subtitle{display:inline-block;}
         font-family:font1 !important;font-size:1.2em !important;line-height:3.5vh;text-align:justify !important;
         }
         .Formatting li{list-style-type: none;font-size:1.2em !important;}
+        .track {
+    flex-direction: column;
+  }
+  .con-elem {
+    width: 90%;
+    margin: 0 auto;
+  }
+
 }
+@media (min-width:600px) and (max-width:1298px){
+    .track{
+        flex-direction: column;
+    
+    }
+    .con-elem{
+        width:60%;
+        margin:0 auto;
+    }
+    .con-elem h3{
+        margin-left:0px;
+    }
+    .wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+    }
        /* Call for Papers Page Ends here*/
